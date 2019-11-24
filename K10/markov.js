@@ -1,48 +1,3 @@
-# Markov Kette
-
-### zl objekt
-
-![](K10/zl.png)
-
-### jit.cellblock
-
-![](K10/jit.cellblick.png)
-
-### Markov Kette
-
-[Markov Kette](https://de.wikipedia.org/wiki/Markow-Kette)
-
-![](K10/markov.png)
-
-Eine Markow-Kette ist ein spezieller **stochastischer** Prozess. Eine Markow-Kette ist darüber definiert, dass auch durch Kenntnis einer nur begrenzten Vorgeschichte ebenso gute Prognosen über die zukünftige Entwicklung möglich sind wie bei Kenntnis der gesamten Vorgeschichte des Prozesses.
-
-
-### Ein musikalisches Beispiel
-![](K10/elise.png)
-
-
-### Analyse
-
-**Melodie**
-
-E Dis E Dis E H D C A C E A H E Gis H C E E Dis E Dis E H D C A C E A H E C H A H C D E H F E A F E D C E D C H E E E E Dis E Dis E Dis E Dis E H D C A C E A H E Gis H C E E Dis E Dis E Dis E H D C A C E A H C E C H A
-
-**Zählung**
-![count](K10/count.png)
-![](K10/analyze.png)
-
-**1st order**
-![count](K10/1st.png)
-
-### Second Order
-
-- benutzt zwei Noten
-
-![](K10/2nd.png)
-
-![](K10/nd.png)
-
-```
 
 var dimension = 2;
 var collection = {};
@@ -150,12 +105,4 @@ function melody(){
 		post("\n");
 	}
 }
-```
-
-
-
-
-
-
-
 
